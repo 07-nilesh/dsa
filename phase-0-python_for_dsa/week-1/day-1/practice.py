@@ -54,3 +54,15 @@ for i in range(len(arr1)):
     elif first>arr1[i]>second:
         second=arr1[i]
 print(second)
+
+#5.Create list 5 ways (literal, range, comprehension, * operator, list())
+list1=[1,2,3,4,5]
+list2=list(range(6,11))
+list3=[x for x in range(11,16)]
+list4=[1]*5
+list5=list([1,2,3,4,5])
+print(list1)
+print(list2)
+print(list3)
+print(list4)
+print(list5)
