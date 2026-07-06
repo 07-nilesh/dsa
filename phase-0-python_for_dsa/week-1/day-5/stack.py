@@ -15,6 +15,8 @@ print(top_page)
 last_visited=browser_history.pop()
 print(last_visited)
 
-#ask if something is in stack - O(1)
+#ask if something is in stack - O(1) for list based stack - O(n)
 if browser_history:
     print("True")
+browser_history.pop()
+browser_history.pop()
