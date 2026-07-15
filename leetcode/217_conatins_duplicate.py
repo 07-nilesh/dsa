@@ -7,3 +7,4 @@ class Solution:
             return True
 print(Solution.findduplicate(nums=[1,2,3,1]))
 print(Solution.findduplicate(nums=[1,2,3,4]))
+
